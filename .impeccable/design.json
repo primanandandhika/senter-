@@ -1,0 +1,402 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-31T09:07:59Z",
+  "title": "Design System: SENTER",
+  "extensions": {
+    "colorMeta": {
+      "void": {
+        "role": "neutral",
+        "displayName": "Void",
+        "canonical": "#000000",
+        "tonalRamp": [
+          "oklch(15% 0.000 280.0)",
+          "oklch(25% 0.000 280.0)",
+          "oklch(35% 0.000 280.0)",
+          "oklch(45% 0.000 280.0)",
+          "oklch(55% 0.000 280.0)",
+          "oklch(65% 0.000 280.0)",
+          "oklch(80% 0.000 280.0)",
+          "oklch(95% 0.000 280.0)"
+        ]
+      },
+      "bone-white": {
+        "role": "neutral",
+        "displayName": "Bone White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0.000 280.0)",
+          "oklch(25% 0.000 280.0)",
+          "oklch(35% 0.000 280.0)",
+          "oklch(45% 0.000 280.0)",
+          "oklch(55% 0.000 280.0)",
+          "oklch(65% 0.000 280.0)",
+          "oklch(80% 0.000 280.0)",
+          "oklch(95% 0.000 280.0)"
+        ]
+      },
+      "ash-gray": {
+        "role": "neutral",
+        "displayName": "Ash Gray",
+        "canonical": "#9a9a9a",
+        "tonalRamp": [
+          "oklch(15% 0.000 280.0)",
+          "oklch(25% 0.000 280.0)",
+          "oklch(35% 0.000 280.0)",
+          "oklch(45% 0.000 280.0)",
+          "oklch(55% 0.000 280.0)",
+          "oklch(65% 0.000 280.0)",
+          "oklch(80% 0.000 280.0)",
+          "oklch(95% 0.000 280.0)"
+        ]
+      },
+      "silver-mist": {
+        "role": "neutral",
+        "displayName": "Silver Mist",
+        "canonical": "#bdbdbd",
+        "tonalRamp": [
+          "oklch(15% 0.000 280.0)",
+          "oklch(25% 0.000 280.0)",
+          "oklch(35% 0.000 280.0)",
+          "oklch(45% 0.000 280.0)",
+          "oklch(55% 0.000 280.0)",
+          "oklch(65% 0.000 280.0)",
+          "oklch(80% 0.000 280.0)",
+          "oklch(95% 0.000 280.0)"
+        ]
+      },
+      "electric-iris": {
+        "role": "primary",
+        "displayName": "Electric Iris",
+        "canonical": "#8052ff",
+        "tonalRamp": [
+          "oklch(15% 0.084 289.0)",
+          "oklch(25% 0.133 289.0)",
+          "oklch(35% 0.193 289.0)",
+          "oklch(45% 0.241 289.0)",
+          "oklch(55% 0.229 289.0)",
+          "oklch(65% 0.193 289.0)",
+          "oklch(80% 0.133 289.0)",
+          "oklch(95% 0.036 289.0)"
+        ]
+      },
+      "saffron-spark": {
+        "role": "secondary",
+        "displayName": "Saffron Spark",
+        "canonical": "#ffb829",
+        "tonalRamp": [
+          "oklch(15% 0.057 78.7)",
+          "oklch(25% 0.090 78.7)",
+          "oklch(35% 0.130 78.7)",
+          "oklch(45% 0.163 78.7)",
+          "oklch(55% 0.155 78.7)",
+          "oklch(65% 0.130 78.7)",
+          "oklch(80% 0.090 78.7)",
+          "oklch(95% 0.024 78.7)"
+        ]
+      },
+      "deep-verdant": {
+        "role": "tertiary",
+        "displayName": "Deep Verdant",
+        "canonical": "#15846e",
+        "tonalRamp": [
+          "oklch(15% 0.035 174.8)",
+          "oklch(25% 0.054 174.8)",
+          "oklch(35% 0.079 174.8)",
+          "oklch(45% 0.099 174.8)",
+          "oklch(55% 0.094 174.8)",
+          "oklch(65% 0.079 174.8)",
+          "oklch(80% 0.054 174.8)",
+          "oklch(95% 0.015 174.8)"
+        ]
+      },
+      "teal-bright": {
+        "role": "tertiary",
+        "displayName": "Bright Teal",
+        "canonical": "#54c5a8",
+        "tonalRamp": [
+          "oklch(15% 0.039 173.6)",
+          "oklch(25% 0.062 173.6)",
+          "oklch(35% 0.089 173.6)",
+          "oklch(45% 0.112 173.6)",
+          "oklch(55% 0.106 173.6)",
+          "oklch(65% 0.089 173.6)",
+          "oklch(80% 0.062 173.6)",
+          "oklch(95% 0.017 173.6)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Dark Surface",
+        "canonical": "#08080a",
+        "tonalRamp": [
+          "oklch(15% 0.000 280.0)",
+          "oklch(25% 0.000 280.0)",
+          "oklch(35% 0.000 280.0)",
+          "oklch(45% 0.000 280.0)",
+          "oklch(55% 0.000 280.0)",
+          "oklch(65% 0.000 280.0)",
+          "oklch(80% 0.000 280.0)",
+          "oklch(95% 0.000 280.0)"
+        ]
+      },
+      "surface-raised": {
+        "role": "neutral",
+        "displayName": "Raised Surface",
+        "canonical": "#0d0d10",
+        "tonalRamp": [
+          "oklch(15% 0.002 285.7)",
+          "oklch(25% 0.003 285.7)",
+          "oklch(35% 0.005 285.7)",
+          "oklch(45% 0.006 285.7)",
+          "oklch(55% 0.006 285.7)",
+          "oklch(65% 0.005 285.7)",
+          "oklch(80% 0.003 285.7)",
+          "oklch(95% 0.001 285.7)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Quiet Line",
+        "canonical": "#242428",
+        "tonalRamp": [
+          "oklch(15% 0.003 285.9)",
+          "oklch(25% 0.004 285.9)",
+          "oklch(35% 0.006 285.9)",
+          "oklch(45% 0.007 285.9)",
+          "oklch(55% 0.007 285.9)",
+          "oklch(65% 0.006 285.9)",
+          "oklch(80% 0.004 285.9)",
+          "oklch(95% 0.001 285.9)"
+        ]
+      },
+      "line-strong": {
+        "role": "neutral",
+        "displayName": "Strong Line",
+        "canonical": "#36363b",
+        "tonalRamp": [
+          "oklch(15% 0.003 285.9)",
+          "oklch(25% 0.005 285.9)",
+          "oklch(35% 0.007 285.9)",
+          "oklch(45% 0.009 285.9)",
+          "oklch(55% 0.008 285.9)",
+          "oklch(65% 0.007 285.9)",
+          "oklch(80% 0.005 285.9)",
+          "oklch(95% 0.001 285.9)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Two-line landing headline; 78–84px on wide desktop and stepped down at narrower breakpoints to 52px on compact mobile."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Landing section titles and prominent statements."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Supporting section and product-group headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Default explanatory reading text."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Navigation and compact interface labels."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "control-transition",
+        "value": "160ms ease",
+        "purpose": "State changes on navigation, range controls, and selected filters."
+      },
+      {
+        "name": "button-transition",
+        "value": "200ms ease",
+        "purpose": "Button color and subtle hover lift."
+      },
+      {
+        "name": "drawer-transition",
+        "value": "240ms ease",
+        "purpose": "Mobile dashboard navigation drawer; disabled when reduced motion is preferred."
+      },
+      {
+        "name": "reveal-motion",
+        "value": "0.55s cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Soft scroll reveal; duration and delay become zero for reduced-motion users."
+      },
+      {
+        "name": "constellation-pulse",
+        "value": "3–4.65s easeInOut repeat",
+        "purpose": "Decorative measurement-node pulse; omitted for reduced-motion users."
+      },
+      {
+        "name": "waveform-flow",
+        "value": "9s linear infinite",
+        "purpose": "Decorative energy trace motion; stopped for reduced-motion users."
+      },
+      {
+        "name": "reduced-motion-color-feedback",
+        "value": "120ms ease",
+        "purpose": "Preserves color, border, and opacity feedback while removing decorative movement."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1100px"
+      },
+      {
+        "name": "tablet",
+        "value": "900px"
+      },
+      {
+        "name": "mobile",
+        "value": "720px"
+      },
+      {
+        "name": "compact-mobile",
+        "value": "420px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The filled action that carries the main next step.",
+      "html": "<button class=\"ds-button-primary\" type=\"button\">Explore dashboard</button>",
+      "css": ".ds-button-primary { display: inline-flex; align-items: center; justify-content: center; min-height: 46px; padding: 0 20px; border: 1px solid transparent; border-radius: 999px; background: var(--violet); color: #fff; font: 600 13px/1.2 var(--font-ui); cursor: pointer; transition: background-color .2s ease, transform .2s ease; } .ds-button-primary:hover { background: #7043f0; transform: translateY(-1px); } .ds-button-primary:focus-visible { outline: 2px solid var(--amber); outline-offset: 3px; } .ds-button-primary:active { transform: translateY(0); } @media (prefers-reduced-motion: reduce) { .ds-button-primary { transition-property: color, background-color, border-color, opacity; transition-duration: 120ms; transition-timing-function: ease; } .ds-button-primary:hover, .ds-button-primary:active { transform: none; } }"
+    },
+    {
+      "name": "Secondary Action",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "A contained secondary action for utility flows.",
+      "html": "<button class=\"ds-button-secondary\" type=\"button\">Export sample</button>",
+      "css": ".ds-button-secondary { display: inline-flex; align-items: center; justify-content: center; min-height: 46px; padding: 0 20px; border: 1px solid #303036; border-radius: 999px; background: #111114; color: #f3f3f4; font: 600 13px/1.2 var(--font-ui); cursor: pointer; transition: background-color .2s ease, border-color .2s ease, transform .2s ease; } .ds-button-secondary:hover { border-color: #55545c; background: #17171b; transform: translateY(-1px); } .ds-button-secondary:focus-visible { outline: 2px solid var(--amber); outline-offset: 3px; } .ds-button-secondary:active { transform: translateY(0); } @media (prefers-reduced-motion: reduce) { .ds-button-secondary { transition-property: color, background-color, border-color, opacity; transition-duration: 120ms; transition-timing-function: ease; } .ds-button-secondary:hover, .ds-button-secondary:active { transform: none; } }"
+    },
+    {
+      "name": "Quiet Action",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "A transparent text action for secondary navigation.",
+      "html": "<button class=\"ds-button-quiet\" type=\"button\">How it works</button>",
+      "css": ".ds-button-quiet { display: inline-flex; align-items: center; justify-content: center; min-height: 46px; padding: 0 20px; border: 1px solid transparent; border-radius: 999px; background: transparent; color: var(--muted); font: 600 13px/1.2 var(--font-ui); cursor: pointer; transition: background-color .2s ease, color .2s ease, transform .2s ease; } .ds-button-quiet:hover { background: #111114; color: #fff; transform: translateY(-1px); } .ds-button-quiet:focus-visible { outline: 2px solid var(--amber); outline-offset: 3px; } .ds-button-quiet:active { transform: translateY(0); } @media (prefers-reduced-motion: reduce) { .ds-button-quiet { transition-property: color, background-color, border-color, opacity; transition-duration: 120ms; transition-timing-function: ease; } .ds-button-quiet:hover, .ds-button-quiet:active { transform: none; } }"
+    },
+    {
+      "name": "Icon Button",
+      "kind": "button",
+      "refersTo": "icon-button",
+      "description": "A compact utility control used for navigation and notifications.",
+      "html": "<button class=\"ds-icon-button\" type=\"button\" aria-label=\"Open notifications\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M18 9a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9\"></path><path d=\"M10 21h4\"></path></svg></button>",
+      "css": ".ds-icon-button { display: inline-grid; place-items: center; width: 38px; height: 38px; padding: 0; border: 1px solid transparent; border-radius: 12px; background: transparent; color: #a2a2a8; cursor: pointer; transition: color .18s ease, background .18s ease, border-color .18s ease; } .ds-icon-button:hover { color: #fff; background: #18181c; border-color: #2b2b31; } .ds-icon-button:focus-visible { outline: 2px solid var(--amber); outline-offset: 3px; } .ds-icon-button:active { background: #111114; } @media (prefers-reduced-motion: reduce) { .ds-icon-button { transition-property: color, background-color, border-color, opacity; transition-duration: 120ms; transition-timing-function: ease; } }"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "search-field",
+      "description": "A dark, quiet field for finding a device or sample row.",
+      "html": "<label class=\"ds-search-field\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"10.8\" cy=\"10.8\" r=\"6.8\"></circle><path d=\"m16 16 4.5 4.5\"></path></svg><span class=\"ds-search-label\">Search devices</span><input class=\"ds-search-input\" type=\"search\" placeholder=\"Search devices\"></label>",
+      "css": ".ds-search-field { display: flex; align-items: center; gap: 8px; min-height: 38px; padding: 0 11px; border: 1px solid #2d2d33; border-radius: 9px; background: #0c0c0f; color: #84848b; font: 400 10px/1.3 var(--font-ui); transition: border-color .16s ease; } .ds-search-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; } .ds-search-input { width: 100%; min-width: 0; padding: 0; border: 0; outline: 0; background: transparent; color: #e7e7e9; font: 400 10px/1.4 var(--font-ui); } .ds-search-input::placeholder { color: #77777e; } .ds-search-field > svg { flex: 0 0 auto; } .ds-search-field:focus-within { border-color: #7354cf; } .ds-search-input:focus-visible { caret-color: var(--amber); }"
+    },
+    {
+      "name": "Active Dashboard Link",
+      "kind": "nav",
+      "refersTo": "nav-active",
+      "description": "The selected destination in the workspace rail or mobile drawer.",
+      "html": "<a class=\"ds-nav-link ds-nav-link-active\" href=\"#\" aria-current=\"page\">Overview</a>",
+      "css": ".ds-nav-link { display: flex; align-items: center; min-height: 42px; padding: 0 12px; border-radius: 10px; color: #929299; font: 400 12px/1.2 var(--font-ui); text-decoration: none; transition: color .16s ease, background .16s ease; } .ds-nav-link:hover { background: #111114; color: #fff; } .ds-nav-link-active { background: rgba(128,82,255,.12); color: #f3efff; } .ds-nav-link:focus-visible { outline: 2px solid var(--amber); outline-offset: 2px; } @media (prefers-reduced-motion: reduce) { .ds-nav-link { transition-property: color, background-color, border-color, opacity; transition-duration: 120ms; transition-timing-function: ease; } }"
+    },
+    {
+      "name": "Demo Status",
+      "kind": "chip",
+      "refersTo": "demo-status-pill",
+      "description": "A persistent marker that distinguishes sample readings from live measurements.",
+      "html": "<span class=\"ds-demo-pill\"><i></i> DEMO DATA</span>",
+      "css": ".ds-demo-pill { display: inline-flex; align-items: center; gap: 7px; padding: 7px 9px; border: 1px solid rgba(255,184,41,.22); border-radius: 999px; background: rgba(255,184,41,.055); color: #e9b84f; font: 600 8px/1.2 var(--font-ui); letter-spacing: .08em; white-space: nowrap; } .ds-demo-pill i { width: 5px; height: 5px; border-radius: 50%; background: var(--amber); }"
+    },
+    {
+      "name": "Data Panel",
+      "kind": "card",
+      "refersTo": "data-panel",
+      "description": "A restrained container that groups related dashboard measurements.",
+      "html": "<section class=\"ds-data-panel\"><h3>Appliance mix</h3><p>Illustrative sample · simulated</p></section>",
+      "css": ".ds-data-panel { padding: 19px 20px; border: 1px solid #25252a; border-radius: 15px; background: #09090b; color: #e7e7ea; } .ds-data-panel h3 { margin: 0; font: 550 13px/1.3 var(--font-ui); } .ds-data-panel p { margin: 6px 0 0; color: #85858c; font: 400 9px/1.5 var(--font-ui); }"
+    },
+    {
+      "name": "Energy Chart",
+      "kind": "custom",
+      "refersTo": "energy-chart",
+      "description": "A responsive violet line chart with focusable points and an explicit simulated-data caption.",
+      "html": "<figure class=\"ds-energy-chart\"><div class=\"ds-chart-heading\"><strong>Energy consumption</strong><span>Daily sample</span></div><svg class=\"ds-chart\" viewBox=\"0 0 320 100\" role=\"img\" aria-label=\"Simulated energy consumption trend\"><path class=\"ds-chart-grid\" d=\"M24 20H310M24 50H310M24 80H310\"></path><path class=\"ds-chart-line\" d=\"M24 72L82 60L140 64L198 38L256 48L310 24\"></path><circle class=\"ds-chart-point\" cx=\"198\" cy=\"38\" r=\"4\" tabindex=\"0\" role=\"button\" aria-label=\"Sample chart point\"></circle></svg><figcaption>SIMULATED ENERGY USE · kWh</figcaption></figure>",
+      "css": ".ds-energy-chart { min-width: 0; margin: 0; padding: 19px 20px 14px; border: 1px solid #25252a; border-radius: 15px; background: #09090b; color: #e7e7ea; } .ds-chart-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; } .ds-chart-heading strong { font: 550 13px/1.3 var(--font-ui); } .ds-chart-heading span { color: #85858c; font: 400 9px/1.3 var(--font-ui); } .ds-chart { display: block; width: 100%; height: auto; margin-top: 12px; overflow: visible; } .ds-chart-grid { fill: none; stroke: #25252b; stroke-width: 1; } .ds-chart-line { fill: none; stroke: #9a7aff; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; } .ds-chart-point { fill: #101014; stroke: #b7a2ff; stroke-width: 1.7; cursor: crosshair; vector-effect: non-scaling-stroke; } .ds-chart-point:hover { fill: var(--violet); stroke: #e0d6ff; stroke-width: 2; } .ds-chart-point:focus-visible { outline: none; stroke: var(--amber); stroke-width: 3; } .ds-energy-chart figcaption { margin-top: 7px; color: #77777e; font: 600 8px/1.3 var(--font-ui); letter-spacing: .08em; }"
+    },
+    {
+      "name": "Metric Strip Item",
+      "kind": "custom",
+      "refersTo": "kpi-item",
+      "description": "A measured value with a clear simulated context and tabular-number treatment.",
+      "html": "<article class=\"ds-kpi\"><span class=\"ds-kpi-label\">Total energy</span><strong>— kWh</strong><small>Illustrative sample · simulated</small></article>",
+      "css": ".ds-kpi { display: flex; flex-direction: column; gap: 6px; min-width: 0; padding: 17px 20px 18px; border-top: 1px solid #28282d; border-bottom: 1px solid #28282d; border-left: 1px solid #28282d; color: #f5f5f6; } .ds-kpi-label { display: flex; align-items: center; justify-content: space-between; color: #9c9ca3; font: 400 10px/1.3 var(--font-ui); } .ds-kpi strong { font: 400 29px/1.15 var(--font-ui); letter-spacing: -.045em; font-variant-numeric: tabular-nums lining-nums; white-space: nowrap; } .ds-kpi small { color: #78787f; font: 400 9px/1.3 var(--font-ui); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Energy Trace",
+    "overview": "The interface makes a shop’s electricity costs legible as a path: from a bill-level total, through appliance readings, to a useful next action. The landing page preserves the Dala-inspired black-void composition and oversized type, then gives that space a code-drawn energy constellation. Its generous opening and asymmetric text-and-visual balance make the energy story feel clear before the visitor enters the product.\\n\\nInside the dashboard, the same dark field becomes a measured workspace. Compact labels, tabular readings, fine dividers, and restrained panels help owners compare use and estimated cost. Readings, estimates, and preliminary insights remain visibly identified as simulated; the interface does not imply live device integration or verified savings.",
+    "keyCharacteristics": [
+      "A black-void canvas with white and silver Inter typography.",
+      "Violet for action and measurement, amber for caution or emphasis, and teal for positive status.",
+      "Open, oversized landing typography paired with a compact, scannable dashboard.",
+      "Authored SVG energy visuals and clearly labeled simulated data."
+    ],
+    "rules": [
+      {
+        "name": "The Three Signal Rule",
+        "body": "Keep violet for action or measurement, amber for caution or emphasis, and teal for positive status. Do not swap these roles for decoration.",
+        "section": "colors"
+      },
+      {
+        "name": "The Scale Carries the Headline Rule",
+        "body": "Keep display and major headings at regular weight; use size and tracking for emphasis rather than bold weight.",
+        "section": "typography"
+      },
+      {
+        "name": "The Landing Trace Rule",
+        "body": "Preserve the landing page’s path from bill-level uncertainty to appliance-level visibility; keep this open composition distinct from the dashboard’s denser work surface.",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat-by-Default Rule",
+        "body": "Keep surfaces flat at rest. Use tonal separation and borders to establish structure instead of adding shadow.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Demo Clarity Rule",
+        "body": "Every sample reading, estimated cost, and preliminary insight stays visibly marked as simulated or demo data.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do keep the black void, Inter typography, and Electric Iris as the central landing identity.",
+      "Do reserve amber for caution or emphasis and teal for positive status.",
+      "Do use whitespace on the landing page and thin dividers with restrained panels in the dashboard.",
+      "Do keep simulated readings, estimates, and preliminary insights visibly labeled.",
+      "Do use tabular numerals for measured values and preserve responsive stacking for dense data.",
+      "Do keep gradients inside restrained data visualizations rather than using them as decorative fills."
+    ],
+    "donts": [
+      "Don't present simulated readings or preliminary insights as live telemetry or verified outcomes.",
+      "Don't turn the landing page into a generic SaaS hero followed by a feature-card grid.",
+      "Don't use decorative shadows or large saturated-color surfaces.",
+      "Don't use decorative gradients on controls or general surfaces.",
+      "Don't use the violet, amber, and teal signal roles interchangeably.",
+      "Don't introduce raster photography or stock imagery into the energy visualization."
+    ]
+  }
+}

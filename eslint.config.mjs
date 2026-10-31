@@ -12,6 +12,13 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Local agent instructions and generated design-workflow artifacts are not app source.
+    ".agents/**",
+    ".claude/**",
+    ".codex/**",
+    ".cursor/**",
+    ".impeccable/**",
+    ".pi/**",
   ]),
 ]);
 
