@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Senter
 
-## Getting Started
+Senter is an Indonesia-focused energy monitoring prototype for small businesses. It helps owners explore electricity use and estimated costs by device, review usage trends, and see example energy insights.
 
-First, run the development server:
+The app currently uses simulated demo data. It does not connect to live meters or devices, and its tariff is a prototype default rather than a verified current rate.
+
+## Features
+
+- Landing page introducing the product
+- Dashboard overview with sample energy use, estimated costs, and device status
+- Device list and device detail views
+- Usage analytics and history views
+- Example insights and recommendations with simulated or preliminary confidence labels
+- Settings for the demo business profile and electricity tariff
+
+## Tech stack
+
+- Next.js 16.4.3 with the App Router
+- React 19.3
+- TypeScript
+- Tailwind CSS 4
+- Framer Motion, Motion, and GSAP for interface animation
+
+## Requirements
+
+- Node.js 20.9 or newer
+- pnpm 12.15.0 (the version recorded in `package.json`)
+
+## Run locally
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The current sample data is local and requires no API credentials.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Available commands
 
-## Learn More
+```bash
+pnpm dev     # Start the development server
+pnpm build   # Build the production app
+pnpm start   # Start the production server after building
+pnpm lint    # Run ESLint
+```
 
-To learn more about Next.js, take a look at the following resources:
+## App routes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Route | Page |
+| --- | --- |
+| `/` | Product landing page |
+| `/dashboard` | Energy overview |
+| `/dashboard/devices` | Devices and device details |
+| `/dashboard/analytics` | Usage analytics |
+| `/dashboard/history` | Measurement history |
+| `/dashboard/insights` | Example insights and recommendations |
+| `/dashboard/settings` | Demo business and tariff settings |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Project structure
 
-## Deploy on Vercel
+```text
+app/                  App Router pages, layouts, styles, and app icons
+components/landing/   Landing page sections and visualizations
+components/dashboard/ Dashboard views and charts
+components/shared/    Shared logo and demo context
+lib/                  Energy helpers and simulated demo data
+public/               Static assets
+types/                Shared TypeScript data types
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The browser icon is built from the Senter diamond and lightning mark in `app/icon.svg`, with an `.ico` fallback at `app/favicon.ico`.

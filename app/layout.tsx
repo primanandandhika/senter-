@@ -10,10 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: {
-    default: "SENTER — Understand Your Energy",
-    template: "%s · SENTER",
-  },
+  title: "SENTER - Sistem Energi Terpantau",
   description:
     "Sistem Energi Terpantau helps Indonesian MSMEs understand electricity consumption at appliance level.",
   applicationName: "SENTER",
