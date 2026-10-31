@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { DashboardPreview } from "@/components/landing/dashboard-preview";
+import { EnergyScrollStory } from "@/components/landing/energy-scroll-story";
 import { EnergyConstellation } from "@/components/landing/energy-constellation";
 import { LandingNav } from "@/components/landing/landing-nav";
 import { Reveal } from "@/components/landing/reveal";
@@ -168,31 +169,30 @@ export function LandingPage() {
     <main className="landing-page">
       <LandingNav />
 
-      <section className="landing-hero container" id="overview">
-        <Reveal className="hero-copy">
-          <h1><span className="hero-heading-line">Know Your Energy.</span><span className="hero-heading-line">Take Control.</span></h1>
-          <p>Monitor electricity consumption at every appliance, discover unusual usage patterns, and make smarter energy decisions for your business.</p>
-          <div className="hero-actions">
-            <Link className="button button-primary" href="/dashboard">Explore Dashboard <Icon name="arrow-up-right" size={16} /></Link>
-            <a className="text-action" href="#how-it-works">Discover How It Works <Icon name="arrow-right" size={16} /></a>
+      <EnergyScrollStory />
+
+      <Reveal>
+        <section className="constellation-followup container" aria-labelledby="constellation-followup-title">
+          <div className="constellation-followup-copy">
+            <span className="section-kicker">ENERGY INTELLIGENCE · DEVICE BY DEVICE</span>
+            <h2 id="constellation-followup-title">A clearer view of what sits behind the total.</h2>
+            <p>Each point represents an illustrative appliance reading. The interface uses simulated values to show how device-level monitoring could make energy use easier to explore.</p>
           </div>
-          <div className="hero-trust"><span className="demo-pulse"><i /></span><span>Interface prototype</span><span className="trust-divider" /><span>Simulated data</span><span className="trust-divider" /><span className="hero-product-type">SMART ENERGY MONITORING PLATFORM</span></div>
-        </Reveal>
-        <Reveal className="hero-art-wrap" delay={0.12}>
-          <EnergyConstellation />
-          <div className="hero-art-caption"><span>ENERGY INTELLIGENCE, DEVICE BY DEVICE</span><span>01 — 05</span></div>
-        </Reveal>
-        <a href="#overview-detail" className="hero-scroll" aria-label="Scroll to product overview"><span /> SCROLL TO EXPLORE</a>
-      </section>
+          <div className="constellation-followup-art">
+            <EnergyConstellation />
+            <div className="hero-art-caption"><span>ILLUSTRATIVE NETWORK · 5 DEVICES</span><span>DEMO DATA</span></div>
+          </div>
+        </section>
+      </Reveal>
 
       <Reveal>
         <section className="problem-section container" id="overview-detail">
           <div className="problem-heading">
             <h2>Electricity bills tell you how much. <span>But do they tell you where?</span></h2>
-          </div>
-          <div className="problem-copy">
-            <p>A monthly total rarely shows which equipment is driving it. For a busy coffee shop owner, that makes it harder to spot patterns or decide where to investigate first.</p>
-            <span className="data-honesty"><Icon name="info" size={16} /> SENTER is a concept-stage interface prototype. The values shown are simulated.</span>
+            <div className="problem-copy">
+              <p>A monthly total rarely shows which equipment is driving it. For a busy coffee shop owner, that makes it harder to spot patterns or decide where to investigate first.</p>
+              <span className="data-honesty"><Icon name="info" size={16} /> SENTER is a concept-stage interface prototype. The values shown are simulated.</span>
+            </div>
           </div>
           <div className="visibility-comparison">
             <div className="comparison-column traditional-column">
@@ -218,8 +218,8 @@ export function LandingPage() {
       <section className="features-section" id="features">
         <div className="container features-intro">
           <Reveal>
-            <div className="features-intro-inner">
-              <div><h2>Energy clarity,<br />built around your shop.</h2></div>
+            <div className="features-intro-inner flex-1">
+              <h2>Energy clarity,<br />built around your shop.</h2>
               <p>From electrical measurements to a clearer next step, SENTER brings an appliance-level view into one considered workspace.</p>
             </div>
           </Reveal>
@@ -284,7 +284,7 @@ export function LandingPage() {
       </Reveal>
 
       <section className="final-cta container">
-        <div className="cta-copy"><h2>Make Every<br />Watt Count.</h2><p>Start understanding your electricity consumption, one appliance at a time.</p></div>
+        <div className="cta-copy"><h2 className="text-5xl">Make Every<br />Watt Count.</h2><p>Start understanding your electricity consumption, one appliance at a time.</p></div>
         <Link className="button button-primary cta-button" href="/dashboard">Open Dashboard <Icon name="arrow-up-right" size={16} /></Link>
         <div className="cta-mark" aria-hidden="true"><span /><span /><span /><span /><span /></div>
       </section>

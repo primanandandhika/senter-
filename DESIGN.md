@@ -234,6 +234,7 @@ Landing navigation is transparent and compact above the hero; the mobile menu op
 
 ### Signature Components
 - **Energy Constellation:** Authored SVG nodes, orbits, and links turn energy flow into a landing-page visual. Keep its palette restrained to the established signal colors and its caption in readable supporting gray.
+- **Energy Trace:** A pointer-responsive Canvas particle field unfolds from a shop total into appliance clusters and a waveform as visitors scroll. Keep the particle count and depth effects bounded; stage controls provide a direct keyboard and touch path.
 - **Energy Chart:** A fine violet line, small focusable points, and a subdued area fill show consumption by selected interval. Keep axes and gridlines secondary to the data.
 - **KPI Strip:** Four values sit in a horizontal row divided by thin rules, then reflow into a two-column grid on mobile. Use tabular numerals for quantities and estimated costs.
 - **Preliminary Insight:** Expandable rows use compact tags and a quiet border. Amber identifies caution; teal identifies an opportunity. Keep uncertainty labels visible with the insight.
@@ -241,7 +242,7 @@ Landing navigation is transparent and compact above the hero; the mobile menu op
 ### Named Rules
 **The Demo Clarity Rule.** Every sample reading, estimated cost, and preliminary insight stays visibly marked as simulated or demo data.
 
-When reduced motion is requested, retain brief color, border, and opacity feedback while stopping decorative motion. The energy waveform and constellation pulse become static, reveal movement and button lifts stop, smooth scrolling is disabled, and the mobile drawer opens without a slide transition.
+When reduced motion is requested, retain brief color, border, and opacity feedback while stopping decorative motion. The energy waveform and constellation pulse become static, the particle scene snaps between its three semantic stages without pointer rotation or idle drift, reveal movement and button lifts stop, smooth scrolling is disabled, and the mobile drawer opens without a slide transition.
 
 ## Do's and Don'ts
 
